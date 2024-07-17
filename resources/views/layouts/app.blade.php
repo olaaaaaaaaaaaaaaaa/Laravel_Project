@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html class="h-full bg-gray-100" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    
+
     <x-layout.document.head />
+    
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
             @include('layouts.navigation')
